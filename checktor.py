@@ -20,8 +20,8 @@ for ip_tor in tor.readlines():
 
 if success == 1:
 
-        print "Your public Ip: " + ip + "  ==> It's a TOR exit node"
+        print "[+] Your public Ip: " + ip + "  ==> It's a TOR exit node"
 
 else:
 
-        print "Your public Ip: " + ip + " ==> It's NOT a TOR exit node"
+        print "[-] Your public Ip: " + ip + " ==> It's NOT a TOR exit node"
